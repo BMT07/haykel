@@ -1,0 +1,139 @@
+.cont{
+    height: 750px;
+    display: flex;
+    align-items:  center;
+    margin-left: 5rem;
+
+   
+}
+.account-settings .user-profile {
+    margin: 0 0 1rem 0;
+    padding-bottom: 1rem;
+    text-align: center;
+   
+}
+.account-settings .user-profile .user-avatar {
+    margin: 0 0 1rem 0;
+}
+.account-settings .user-profile .user-avatar img {
+    width: 200px;
+    height: 200px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+
+
+
+
+.account-settings .user-profile h5.user-name {
+    margin: 0 0 0.5rem 0;
+}
+.account-settings .user-profile h6.user-email {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #9fa8b9;
+}
+.account-settings .about {
+    margin: 2rem 0 0 0;
+    text-align: center;
+}
+.account-settings .about h5 {
+    margin: 0 0 15px 0;
+    color: #007ae1;
+}
+.account-settings .about p {
+    font-size: 0.825rem;
+}
+.form-control {
+    border: 1px solid #cfd1d8;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    font-size: .825rem;
+    background: #ffffff;
+    color: #2e323c;
+}
+
+.card {
+    background: #ffffff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    max-width: 1000px;
+}
+
+
+
+.user-profile{
+    width: 300px;
+    position: relative;
+}
+.signup-profile-pic{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    right: 15%;
+
+    
+
+}
+
+.icon{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    color:green;
+    bottom: -550%;
+    left:80%;
+    cursor: pointer;
+    
+}
+
+@media(max-width: 1150px){
+    
+    .card-body{
+      height: 300px;
+       
+    }
+  }
+
+  
+@media(max-width: 1115px){
+    
+    .signup-profile-pic{
+        object-fit: fill;
+        width: 180px;
+        right: 40%;
+    }
+
+    .icon{
+        position: absolute;
+        left:55%;
+        
+     
+        
+    }
+  }
+
+
+  @media(max-width: 1239px){
+    
+    .signup-profile-pic{
+        object-fit: fill;
+        width: 150px;
+        right: 40%;
+    }
+
+    .icon{
+        position: absolute;
+        left:55%;
+        
+     
+        
+    }
+  }

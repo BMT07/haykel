@@ -1,0 +1,55 @@
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    background:rgb(75, 81, 133);
+    color: #f2f2f2;
+}
+
+input[type=search] {
+	background: rgb(253, 253, 253) no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 32px;
+	width: 300px;
+}
+input[type=search]:focus {
+	width: 600px;
+	background-color: #ccc;
+	border-color: #333;
+	border: solid 1px #fff;
+}
+
+
+.imgAdmin{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+.spanh{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fdfdfe;
+
+}
+
+
+@media screen and (max-width: 1125px) {
+    .navbar form {
+      float: none;
+      display: block;
+    }
+  }
+
+
+  @media screen and (max-width: 746px) {
+   .putInisde {
+      float: none;
+      display: block;
+    }
+  }

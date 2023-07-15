@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.boxProduct {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; 
+}
+
+.cardprod {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 500px;
+}
+.card-header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.cards-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 10px 0 10px 10px ;
+  min-height: 250px;
+}
+
+.tag {
+  background: #cccccc;
+  border-radius: 30px;
+  font-size: 15px;
+  margin-bottom: 8px;
+  color: #fff;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.tag-teal {
+  background-color: #4e3399;
+}
+.tag-purple {
+  background-color: #5e76bf;
+}
+.tag-pink {
+  background-color: #cd5b9f;
+}
+
+.heading{
+  max-width: 380px;
+}
+
+.cards-body p {
+  font-size: 13px;
+  margin: 0 0 40px;
+}
+.user {
+  display: flex;
+  margin-top: auto;
+}
+
+.user img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.user-info h5 {
+  margin: 0;
+}
+.user-info small {
+  color: #545d7a;
+}
+
+.social {
+
+}
+.social-buttons {
+  color: #7f7f7f;
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight:bold;
+  line-height:15px;
+  
+  border-top:1px solid #e5e5e5;
+  padding:10px 0 10px 20px;
+ 
+  
+}
+
+
+   /*bottons  css */
+
+   .btnIcon{
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    background-color: #acb2c4;
+   }
+
+   #iconB {
+   margin: 0.5rem 0 0.5rem 0;
+    font-size: 25px;
+    position: relative;
+
+
+   }
+
+
+   .actions{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+   }
+
+   .reaction{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+   }
+
+   #iconB:hover{opacity: .7;
+  }
+
+
+  .trash{
+    color: red
+  }
+
+  @media (max-width: 1270px) {
+
+
+     .boxProduct {
+      display: flex;
+      flex-wrap: wrap;
+
+    }
+
+     .btnIcon{
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background-color: #acb2c4;
+     }
+  }

@@ -1,0 +1,66 @@
+
+.usList{
+    position: relative;
+    margin-top: 100px;
+}
+.headUser {
+    position: absolute;
+    left: 50%;
+    top: -2%;
+    transform: translate(-50%, -50%);
+    display: block;
+    color: #cf1b1b;
+    font-size: 50px;
+    letter-spacing: 8px;
+    cursor: pointer;
+  }
+  
+  .headUser::before {
+    content: "PRATHAM";
+    position: absolute;
+    color: transparent;
+    background-image: repeating-linear-gradient(
+      45deg,
+      transparent 0,
+      transparent 2px,
+      white 2px,
+      white 4px
+    );
+    -webkit-background-clip: text;
+    top: 0px;
+    left: 0;
+    z-index: -1;
+    transition: 1s;
+  }
+  
+  .headUser::after {
+    content: "PRATHAM";
+    position: absolute;
+    color: transparent;
+    background-image: repeating-linear-gradient(
+      135deg,
+      transparent 0,
+      transparent 2px,
+      white 2px,
+      white 4px
+    );
+    -webkit-background-clip: text;
+    top: 0px;
+    left: 0px;
+    transition: 1s;
+  }
+  
+  .headUser:hover:before {
+    top: 10px;
+    left: 10px;
+  }
+  
+  .headUser:hover:after {
+    top: -10px;
+    left: -10px;
+  } 
+
+  @media(max-width: 500px){
+    .headUser{
+      display: none;
+  }}
