@@ -5,11 +5,11 @@ export const GET_ANNOUNCE_FAIL = "GET_ANNOUNCE_FAIL"
 export const GET_ANNOUNCE_LOADING = "GET_ANNOUNCE_LOADING"
 
 //Like and dislike announcements types
-export const ADD_COMMENT= "ADD_COMMENT"
+export const ADD_COMMENT = "ADD_COMMENT"
 
 //comments types
-export const UPDATE_LIKES= "UPDATE_LIKES"
-export const REMOVE_COMMENT= "REMOVE_COMMENT"
+export const UPDATE_LIKES = "UPDATE_LIKES"
+export const REMOVE_COMMENT = "REMOVE_COMMENT"
 export const POST_ERROR = "POST_ERROR"
 
 //add Announce actions types
